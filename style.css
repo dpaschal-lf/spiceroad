@@ -1,0 +1,91 @@
+
+body{
+	margin: 0;
+	background-color: lavender;
+	height: 100vh;
+	width: 100vw;
+}
+.card{
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.cubeIndicator{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: white;
+	width: 20%;
+	height: 50%;
+	padding: 5px 5px;
+	box-sizing: border-box
+}
+.cube{
+
+	height: 10px;
+	width: 10px;
+	margin-bottom: 2px;
+}
+/* game board */
+
+#gameArea{
+	height: 60%;
+	width: 60%;
+	position: relative;
+	top: 20%;
+	left: 20%;
+	background-color: lightgreen;
+}
+#centerArea{
+	height: 100%;
+	width: 100%;
+	background-color: lightyellow;
+}
+#abilityArea, #pointsArea{
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+#abilityArea{
+	background-color: pink;
+	border-bottom: 2px solid black;
+}
+#pointsArea{
+	background-color: lightblue;
+}
+.displayArea{
+	width: 80%;
+	height: 100%;
+	background-color: lightgreen;
+	display: flex;
+}
+.deckArea{
+	height: 100%;
+	width: 20%;
+	background-color: purple;
+}
+.cardBack{
+	background-image: url(https://storage.googleapis.com/ludopedia-imagens-jogo/a4a86_105590.jpg);
+    background-size: 647px 322px;
+    background-position: -193px -810px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
